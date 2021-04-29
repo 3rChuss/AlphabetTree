@@ -1,0 +1,19 @@
+{
+  "name": "alphabet",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "Unlicense",
+  "devDependencies": {
+    "jest": "^18.1.0"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ]
+  }
+}
